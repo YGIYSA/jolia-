@@ -1,0 +1,164 @@
+. {margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    height: 1000px;
+}
+
+h1 {
+    color: aliceblu;
+    font-family: black ops one;
+}
+.span{
+    color: brown;
+}
+   .menu-bar{ 
+    display: flex;
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+.menu-bar ul li {
+   padding: 10px 30px; 
+
+}
+.menu-bar ul li a {
+    list-style: none;
+    color: antiquewhite;
+    font-size:  18px;
+    text-decoration: none;
+;
+}
+.menu-bar ul li a:hover {
+    color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+   
+    .side-menu{
+        padding: 200px;
+    }
+    
+}
+.main-section{
+
+    margin-top: -17px;
+    align-items: center;
+    text-align: center;
+    background-image: url(bckgrnd\ img/best.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+} 
+.main-section2{
+    padding-top: 200px;
+}
+
+.logo{
+    background-image: url(bckgrnd\ img/best.jpg);
+    text-align: center;
+     background-color: white;
+     border-radius: 20px;
+     cursor: pointer;
+     
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu{
+    display: none;
+}
+    .menu-bar ul li:hover .dropdown-menu{
+        display: block;
+        position: absolute;
+        margin-left: -50px;
+        text-align: left;
+    }   
+
+    .menu-bar ul li:hover .dropdown-menu ul{
+        display: block;
+        margin: 10px;
+        background-color: black;
+        text-align: left;
+        cursor: pointer;
+    }
+    .menu-bar ul li:hover .dropdown-menu ul li{
+        display: block;
+        left: 0;
+        text-align: left;
+        left: 0;
+        margin-left: -25px;
+        
+    }
+    .submenu{
+        display: none;
+    }
+    
+    .hover-me:hover .submenu{
+        position: absolute;
+        display: block;
+        margin-top:-40px ;
+        margin-left: 100px;
+        background: black;
+    }
+   .welcome{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: brown;
+   }
+   .more{
+    margin-top: -15px;
+    font-size: 30px;
+    color: white;
+   }
+   .button{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+   }
+   .button:hover{
+    background-color: rgb(182, 63, 63);
+    color: white;
+    transition: 0.5s;
+   }
+   .featured{
+    font-size: 70px;
+    font-family: bebas neue;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-between;
+    border-bottom: 3px
+
+}
+.about p{
+    color: gray;
+    padding-right: 50px;
+    text-align: center;
+}
+h2{
+    color: gray;
+    padding-left: 20px;
+    text-align: center;
+}
+.contact p {
+    color: grey;
+    text-align: center;
+}
